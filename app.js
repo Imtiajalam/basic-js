@@ -224,10 +224,33 @@
 // console.log(val);
 
 
-// function declaration
+// function declaration------------------------
 
-function greet (){
-    // console.log("hello");
-    return "hello";
+// function sayLoveYou (){
+//     console.log('jan o baby');
+//     console.log('baby koi tmi');
+// }
+// sayLoveYou();   //callfunction
+
+// var date = 14;
+// var place = "resturent"
+// sayLoveYou();
+// var hangOut = "tsc";
+
+// Advance function--------------------------
+
+function douvleIt(num){             //num = perameter
+    var result = num *2;
+    return result;
 }
-console.log(greet());
+var first = douvleIt(10);
+var second  = douvleIt(100);
+var total = first + second;
+// console.log(total);
+
+function add(num1, num2){
+    var result = num1 + num2;
+    return result;
+}
+var sum = add(15, 17);
+console.log(sum);
