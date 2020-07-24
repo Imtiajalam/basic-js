@@ -207,3 +207,27 @@
 
 
 // array-----------------------------
+
+
+
+// Object---------------------------
+
+// const person = {                                    //person is object and are property
+//     firstName : "siyam",
+//     lastName :"alam",
+//     age : 21 ,
+//     job : "web developer",
+//     hobbis: ["music","sports"]
+// }
+// let val;
+// val = person.hobbis;
+// console.log(val);
+
+
+// function declaration
+
+function greet (){
+    // console.log("hello");
+    return "hello";
+}
+console.log(greet());
